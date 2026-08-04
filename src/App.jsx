@@ -34,7 +34,7 @@ const EQUIPMENT = [
   { id: "hotpress-new", name: "Hot Press Machine HC300-15", cat: "Processing" },
   { id: "hotpress-old", name: "Hot Press Machine (Old version)", cat: "Processing" },
   { id: "minimixer", name: "Mini Mixer MS-1N 1&2", cat: "Processing" },
-  { id: "tensile-18e0", name: "Tensile & Compression Tester IMC-18E0", cat: "Mechanical" },
+  { id: "tensile-IMOTO 18e0", name: "Tensile Tester IMOTO IMC-18E0", cat: "Mechanical" },
   { id: "tgdta", name: "EXSTAR TG/DTA 7200", cat: "Thermal" },
   { id: "dsc", name: "EXSTAR DSC 6220", cat: "Thermal" },
   { id: "injection", name: "Injection Molding HAAKE MINIJET PRO", cat: "Processing" },
@@ -54,7 +54,7 @@ const EQUIPMENT = [
   { id: "ftir-in10", name: "Nicolet iN10 Imaging FTIR", cat: "Spectroscopy" },
   { id: "homogenizer", name: "Ultrasonic Homogenizer LUH150", cat: "Processing" },
   { id: "titrator", name: "KEM Potentiometric Titrator AT-710", cat: "Spectroscopy" },
-  { id: "kyowa-tensile", name: "KYOWA Tensile Machine", cat: "Mechanical" },
+  { id: "MinebaeMitsumi-tensile", name: "MinebaeMitsumi Tensile Machine", cat: "Mechanical" },
 ];
 
 const CATEGORIES = ["All", ...Array.from(new Set(EQUIPMENT.map((e) => e.cat)))];
