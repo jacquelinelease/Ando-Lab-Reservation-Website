@@ -30,7 +30,7 @@ const EQUIPMENT = [
   { id: "ftir-in10", name: "Nicolet iN10 Imaging FTIR", cat: "Spectroscopy" },
   { id: "uvvis", name: "UV-vis Genesys 50", cat: "Spectroscopy" },
   { id: "raman", name: "NRS-5100 Laser Raman Spectrometer", cat: "Spectroscopy" },
-  { id: "sem", name: "SEM JCM6000", cat: "Structural/Morphological Analysis" },
+  { id: "sem-eds", name: "SEM JCM6000 equipped EDS", cat: "Structural/Morphological Analysis" },
   { id: "afm", name: "NanoNavi E-sweep AFM/DFM", cat: "Structural/Morphological Analysis" },
   { id: "xrd", name: "XRD Miniflex 600", cat: "Structural/Morphological Analysis" },
   { id: "laser-micro", name: "Laser Microscopy Keyence VK-X100", cat: "Structural/Morphological Analysis" },
