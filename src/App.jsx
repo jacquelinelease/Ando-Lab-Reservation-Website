@@ -26,7 +26,8 @@ const HOURS = Array.from({ length: 14 }, (_, i) => i + 8); // 08:00 .. 21:00, la
 const DURATIONS = [1, 2, 3, 4, 5, 6];
 
 const EQUIPMENT = [
-  { id: "freeze-dryer", name: "Freeze Dryer FMD1010", cat: "Thermal" },
+  { id: "freeze-dryer", name: "Freeze Dryer FMD1010-1", cat: "Thermal" },
+  { id: "freeze-dryer", name: "Freeze Dryer FMD1010-2", cat: "Thermal" },
   { id: "extruder", name: "Triple Screw Extruder IMC-1979", cat: "Processing" },
   { id: "rotavap", name: "Rotary Evaporator Eyela OSB-2100", cat: "Processing" },
   { id: "xrd", name: "XRD Miniflex 600", cat: "Structural" },
@@ -40,7 +41,7 @@ const EQUIPMENT = [
   { id: "injection", name: "Injection Molding HAAKE MINIJET PRO", cat: "Processing" },
   { id: "autoclave", name: "Autoclave Tomy LBS-325", cat: "Thermal" },
   { id: "sem", name: "SEM JCM6000", cat: "Structural" },
-  { id: "oilbath-1", name: "Oil Bath 1", cat: "Thermal" },
+  { id: "oilbath-1", name: "Oil Bath 1 with condenser", cat: "Thermal" },
   { id: "oilbath-2", name: "Oil Bath 2", cat: "Thermal" },
   { id: "gpc", name: "GPC HLC-8320", cat: "Spectroscopy" },
   { id: "gcms", name: "GCMS-QP2010", cat: "Spectroscopy" },
