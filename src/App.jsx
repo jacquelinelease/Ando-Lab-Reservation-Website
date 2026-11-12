@@ -45,6 +45,7 @@ const EQUIPMENT = [
   { id: "contact-angle", name: "Contact Angle Measurement DMs-401", cat: "Surface and Porosity Analysis" },
   { id: "BET X", name: "BELSORP-Mini X and Pretrement (BET)", cat: "Surface and Porosity Analysis" },
   { id: "BET II", name: "BELSORP-mini II and Pretrement (BET)", cat: "Surface and Porosity Analysis" },
+  { id: "gas-adsorption", name: "BELSORP-HP (Gas Adsorption)", cat: "Surface and Porosity Analysis" },
   { id: "hotpress-old1", name: "Hot Press Machine HC300-15-1 old", cat: "Processing" },
   { id: "hotpress-new2", name: "Hot Press Machine HC300-15-2 new", cat: "Processing" },
   { id: "freeze-dryer1", name: "Freeze Dryer FMD1010-1 left", cat: "Processing" },
